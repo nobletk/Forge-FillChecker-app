@@ -1,6 +1,8 @@
 # Forge FillChecker app
 
-This project contains a Forge app written in Javascript that checks Team members work log hours in a Jira global page. The app queries Rest API for work logs.  
+This project contains a Forge app written in Javascript that checks Team members work log hours in a Jira global page. The app queries Rest API for work logs. 
+
+![Image](docs/FillChecker-app.png)
 
 ## Features
 - Select start and end date
@@ -14,18 +16,18 @@ This project contains a Forge app written in Javascript that checks Team members
 
 ## Project directory overview
 * manifest.yml - A Forge app manifest that defines two modules:
-- A confluence:globalPage module.
-- A corresponding function module that implements the issue panel logic.
+    - A confluence:globalPage module.
+    - A corresponding function module that implements the issue panel logic.
 * src/
-- index.jsx - app,s entry point
-- components/ - UI components
+    - index.jsx - app,s entry point
+    - components/ - UI components
 
 ## Forge features used
 * UI components
-- GlobalPage
-- Form
-- Table
+    - GlobalPage
+    - Form
+    - Table
 
 * UI hooks
-- useState
+        - useState
 
