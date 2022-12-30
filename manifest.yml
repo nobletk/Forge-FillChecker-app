@@ -1,0 +1,15 @@
+modules:
+  jira:globalPage:
+    - key: fillchecker-app-global-page
+      function: main
+      title: FillChecker app
+      route: hello-world
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/d9f24792-180b-4134-9481-156ac8206b41
+permissions:
+  scopes:
+    - read:jira-work
+    - manage:jira-configuration
