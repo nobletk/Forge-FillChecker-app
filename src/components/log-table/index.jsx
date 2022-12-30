@@ -11,7 +11,7 @@ import ForgeUI, {
     User
 } from '@forge/ui';
 
-const req_hours = 5;
+const req_hours = 2;
 
 export const LogTable = ({ logs }) => {
     if (!logs.length) {
