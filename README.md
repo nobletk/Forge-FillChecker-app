@@ -1,7 +1,14 @@
 # Forge FillChecker app
 
+<<<<<<< HEAD
 This project contains a Forge app written in Javascript that checks Team members work log hours in a Jira global page. The app queries Rest API for work logs.  
 ![Image](docs/FillChecker-app.png)
+=======
+This project contains a Forge app written in Javascript that checks Team members work log hours in a Jira global page. The app queries Rest API for work logs. 
+
+![Image](docs/FillChecker-app.png)
+
+>>>>>>> 9809dadaf44b9be12125d99829d7cbebb7b9cbe1
 ## Features
 - Select start and end date
 - Select User name 
@@ -27,5 +34,5 @@ This project contains a Forge app written in Javascript that checks Team members
     - Table
 
 * UI hooks
-        - useState
+     - useState
 
