@@ -16,7 +16,11 @@ const req_hours = 2;
 export const LogTable = ({ logs }) => {
     if (!logs.length) {
         console.log(`Logs are empty: ${logs.length}`);
-        return null;
+        return (<Text>
+            <Strong>
+                Please input the data correctly or No worklogs available for the selected user!
+            </Strong>
+        </Text>);
     }
 
     return (
