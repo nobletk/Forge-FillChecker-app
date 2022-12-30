@@ -15,7 +15,7 @@ This project contains a Forge app written in Javascript that checks Team members
 ## Project directory overview
 * manifest.yml - A Forge app manifest that defines two modules:
 - A confluence:globalPage module.
--A corresponding function module that implements the issue panel logic.
+- A corresponding function module that implements the issue panel logic.
 * src/
 - index.jsx - app,s entry point
 - components/ - UI components
