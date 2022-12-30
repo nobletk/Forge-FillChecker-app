@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@forge/api": "^2.9.0",
-    "@forge/bridge": "^2.5.0",
     "@forge/ui": "^1.5.0"
   }
 }
